@@ -1,7 +1,7 @@
 services:
   spanish-f5:
     container_name: spanish-f5
-    image: spanish-f5:v1
+    image: danisojo/spanish-f5:v1
     restart: unless-stopped
     ports:
       - 7860:7860
