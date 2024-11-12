@@ -9,7 +9,7 @@
 ### Thanks to all the contributors !
 
 ## News
-Spanish model: https://huggingface.co/jpgallegoar/F5-Spanish/
+Spanish model: https://huggingface.co/andromeda0302/E2-F5-TTS-SPANISH
 
 ## Installation
 
@@ -27,14 +27,14 @@ Then you can choose from a few options below:
 ### 1. As a pip package (if just for inference)
 
 ```bash
-pip install git+https://github.com/jpgallegoar/Spanish-F5.git
+pip install git+https://github.com/danisojo/Spanish-F5.git
 ```
 
 ### 2. Local editable (if also do training, finetuning)
 
 ```bash
-git clone https://github.com/jpgallegoar/Spanish-F5.git
-cd F5-TTS
+git clone https://github.com/danisojo/Spanish-F5.git
+cd Spanish-F5
 # git submodule update --init --recursive  # (optional, if need bigvgan)
 pip install -e .
 ```
