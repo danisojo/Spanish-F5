@@ -1,0 +1,11 @@
+services:
+  spanish-f5:
+    container_name: spanish-f5
+    image: spanish-f5:v1
+    restart: unless-stopped
+    ports:
+      - 7860:7860
+    command: 'f5-tts_infer-gradio --port 7860 --host 0.0.0.0'
+networks:
+  default:
+    name: default-network
