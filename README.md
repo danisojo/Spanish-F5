@@ -44,6 +44,12 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 ```
+### 3. Docker compose (preferred)
+```bash
+git clone https://github.com/danisojo/Spanish-F5.git
+cd Spanish-F5
+docker compose up -d spanish-f5
+```
 
 ## Inference
 
